@@ -18,6 +18,8 @@
 		A35792DC177E8085008ADCA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35792DB177E8085008ADCA5 /* Default-568h@2x.png */; };
 		A35792E6177E845F008ADCA5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35792E5177E845F008ADCA5 /* MainViewController.m */; };
 		A35792E8177E8635008ADCA5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A35792EA177E8635008ADCA5 /* Localizable.strings */; };
+		A35792F3177E87CE008ADCA5 /* JSLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = A35792F2177E87CE008ADCA5 /* JSLocalizedString.m */; };
+		A35792F6177E8ECB008ADCA5 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35792F5177E8ECB008ADCA5 /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		A35792E7177E861A008ADCA5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		A35792E9177E8635008ADCA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A35792EB177E8639008ADCA5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A35792F1177E87CE008ADCA5 /* JSLocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLocalizedString.h; sourceTree = "<group>"; };
+		A35792F2177E87CE008ADCA5 /* JSLocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLocalizedString.m; sourceTree = "<group>"; };
+		A35792F4177E8ECB008ADCA5 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		A35792F5177E8ECB008ADCA5 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 				A35792CB177E8085008ADCA5 /* JsLocalizedString */,
 				A35792C4177E8085008ADCA5 /* Frameworks */,
 				A35792C3177E8085008ADCA5 /* Products */,
+				A35792EC177E873D008ADCA5 /* Libraries */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +96,8 @@
 				A35792D5177E8085008ADCA5 /* AppDelegate.m */,
 				A35792E4177E845F008ADCA5 /* MainViewController.h */,
 				A35792E5177E845F008ADCA5 /* MainViewController.m */,
+				A35792F4177E8ECB008ADCA5 /* SettingViewController.h */,
+				A35792F5177E8ECB008ADCA5 /* SettingViewController.m */,
 				A35792CC177E8085008ADCA5 /* Supporting Files */,
 			);
 			path = JsLocalizedString;
@@ -107,6 +116,23 @@
 				A35792DB177E8085008ADCA5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A35792EC177E873D008ADCA5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A35792ED177E873D008ADCA5 /* JSLocalizedString */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		A35792ED177E873D008ADCA5 /* JSLocalizedString */ = {
+			isa = PBXGroup;
+			children = (
+				A35792F1177E87CE008ADCA5 /* JSLocalizedString.h */,
+				A35792F2177E87CE008ADCA5 /* JSLocalizedString.m */,
+			);
+			path = JSLocalizedString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +205,8 @@
 				A35792D2177E8085008ADCA5 /* main.m in Sources */,
 				A35792D6177E8085008ADCA5 /* AppDelegate.m in Sources */,
 				A35792E6177E845F008ADCA5 /* MainViewController.m in Sources */,
+				A35792F3177E87CE008ADCA5 /* JSLocalizedString.m in Sources */,
+				A35792F6177E8ECB008ADCA5 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

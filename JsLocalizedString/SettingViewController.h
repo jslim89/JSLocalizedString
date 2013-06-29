@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  SettingViewController.h
 //  JsLocalizedString
 //
 //  Created by JS Lim on 6/29/13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SettingViewController.h"
 
-@interface MainViewController : UIViewController
+@interface SettingViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
 
 @end
