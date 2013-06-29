@@ -16,6 +16,8 @@
 		A35792D8177E8085008ADCA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A35792D7177E8085008ADCA5 /* Default.png */; };
 		A35792DA177E8085008ADCA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35792D9177E8085008ADCA5 /* Default@2x.png */; };
 		A35792DC177E8085008ADCA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35792DB177E8085008ADCA5 /* Default-568h@2x.png */; };
+		A35792E3177E8432008ADCA5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A35792E2177E8432008ADCA5 /* Localizable.strings */; };
+		A35792E6177E845F008ADCA5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35792E5177E845F008ADCA5 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		A35792D7177E8085008ADCA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A35792D9177E8085008ADCA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A35792DB177E8085008ADCA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A35792E2177E8432008ADCA5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A35792E4177E845F008ADCA5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A35792E5177E845F008ADCA5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,8 @@
 			children = (
 				A35792D4177E8085008ADCA5 /* AppDelegate.h */,
 				A35792D5177E8085008ADCA5 /* AppDelegate.m */,
+				A35792E4177E845F008ADCA5 /* MainViewController.h */,
+				A35792E5177E845F008ADCA5 /* MainViewController.m */,
 				A35792CC177E8085008ADCA5 /* Supporting Files */,
 			);
 			path = JsLocalizedString;
@@ -88,6 +95,7 @@
 		A35792CC177E8085008ADCA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A35792E2177E8432008ADCA5 /* Localizable.strings */,
 				A35792CD177E8085008ADCA5 /* JsLocalizedString-Info.plist */,
 				A35792CE177E8085008ADCA5 /* InfoPlist.strings */,
 				A35792D1177E8085008ADCA5 /* main.m */,
@@ -154,6 +162,7 @@
 				A35792D8177E8085008ADCA5 /* Default.png in Resources */,
 				A35792DA177E8085008ADCA5 /* Default@2x.png in Resources */,
 				A35792DC177E8085008ADCA5 /* Default-568h@2x.png in Resources */,
+				A35792E3177E8432008ADCA5 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				A35792D2177E8085008ADCA5 /* main.m in Sources */,
 				A35792D6177E8085008ADCA5 /* AppDelegate.m in Sources */,
+				A35792E6177E845F008ADCA5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +218,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -233,7 +243,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -247,6 +257,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JsLocalizedString/JsLocalizedString-Prefix.pch";
 				INFOPLIST_FILE = "JsLocalizedString/JsLocalizedString-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JsLocalizedString/JsLocalizedString-Prefix.pch";
 				INFOPLIST_FILE = "JsLocalizedString/JsLocalizedString-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
