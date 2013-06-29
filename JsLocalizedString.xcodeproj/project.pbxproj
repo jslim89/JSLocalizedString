@@ -16,8 +16,8 @@
 		A35792D8177E8085008ADCA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A35792D7177E8085008ADCA5 /* Default.png */; };
 		A35792DA177E8085008ADCA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35792D9177E8085008ADCA5 /* Default@2x.png */; };
 		A35792DC177E8085008ADCA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35792DB177E8085008ADCA5 /* Default-568h@2x.png */; };
-		A35792E3177E8432008ADCA5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A35792E2177E8432008ADCA5 /* Localizable.strings */; };
 		A35792E6177E845F008ADCA5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35792E5177E845F008ADCA5 /* MainViewController.m */; };
+		A35792E8177E8635008ADCA5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A35792EA177E8635008ADCA5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,11 @@
 		A35792D7177E8085008ADCA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A35792D9177E8085008ADCA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A35792DB177E8085008ADCA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A35792E2177E8432008ADCA5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A35792E4177E845F008ADCA5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A35792E5177E845F008ADCA5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A35792E7177E861A008ADCA5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A35792E9177E8635008ADCA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A35792EB177E8639008ADCA5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 		A35792CC177E8085008ADCA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A35792E2177E8432008ADCA5 /* Localizable.strings */,
+				A35792EA177E8635008ADCA5 /* Localizable.strings */,
 				A35792CD177E8085008ADCA5 /* JsLocalizedString-Info.plist */,
 				A35792CE177E8085008ADCA5 /* InfoPlist.strings */,
 				A35792D1177E8085008ADCA5 /* main.m */,
@@ -142,6 +144,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = A35792B9177E8085008ADCA5;
 			productRefGroup = A35792C3177E8085008ADCA5 /* Products */;
@@ -162,7 +165,7 @@
 				A35792D8177E8085008ADCA5 /* Default.png in Resources */,
 				A35792DA177E8085008ADCA5 /* Default@2x.png in Resources */,
 				A35792DC177E8085008ADCA5 /* Default-568h@2x.png in Resources */,
-				A35792E3177E8432008ADCA5 /* Localizable.strings in Resources */,
+				A35792E8177E8635008ADCA5 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,8 +189,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				A35792CF177E8085008ADCA5 /* en */,
+				A35792E7177E861A008ADCA5 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A35792EA177E8635008ADCA5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35792E9177E8635008ADCA5 /* en */,
+				A35792EB177E8639008ADCA5 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
